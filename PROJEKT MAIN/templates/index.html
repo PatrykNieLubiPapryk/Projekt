@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fundacja S.G.O.</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="icon" href="../static/img/favicon.png" type="image/x-icon">
+    <style>
+      body, html {
+        height: 100%;
+        font-family: "Inconsolata", sans-serif;
+      }
+      
+      .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url("../static/img/2024-12-06 15.59.37.png");
+        min-height: 75%;
+      }
+      
+      .menu {
+        display: none;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="w3-top">
+      <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s3">
+          <a href="#" class="w3-button w3-block w3-black">STRONA GŁÓWNA</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#onas" class="w3-button w3-block w3-black">O NAS/KONTAKT</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#info" class="w3-button w3-block w3-black">PRZYCZYNY I SKUTKI</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#datki" class="w3-button w3-block w3-black">DATKI</a>
+        </div>
+      </div>
+    </div>
+    
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+        <span class="w3-tag">Data założenia: 2017</span>
+      </div>
+      <div class="w3-display-bottomright w3-center w3-padding-large">
+        <span class="w3-text-white">Źródło: </span> <a class = "w3-text-white" href="https://www.logoai.com">logoai.com</a>
+      </div>
+    </header>
+    
+    <div class="w3-sand w3-grayscale w3-large">
+    
+    <div class="w3-container" id="onas">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">O NAS</span></h5>
+        <p><strong>Fundacja S.G.O.</strong> (Stop Globalne Ocieplenie) jest grupą woluntariuszy pracujących w celu złagodnienia skutków globalnego ocieplenia i zmian klimatycznych, oraz ogólnego zanieczyszczenia ziemi.</p>
+        <p>Osiągamy ten cel m.in. sadząc drzewa i oczyszczając morza i oceany ze śmieci. Fundusze pobieramy wyłącznie z datków.</p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+          <p><i>“Zmiany klimatyczne są największym zagrożeniem dla naszego istnienia w naszym krótkim pobycie na tej planecie. Nikt nie wykupi sobie bezpieczeństwa przed ich skutkami.”</i></p>
+          <p>- Mark Ruffalo, aktor i ekolog</p>
+        </div>
+        <img src="../static/img/AQL_AirPollutionClimateChange_Desk_25aeba1d-bc35-42cc-898b-e6ac098e881c.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+        <h5 class="w3-center"><span class="w3-tag w3-wide">KONTAKT</span></h5>
+        <p><strong>Numer telefonu:</strong> (69) 420 21 37</p>
+        <p><strong>E-mail:</strong> Fundacja-SGO@wp.pl</p>
+        <p><strong>Adres:</strong> al. Dziedzic 66b - Przemków, WP / 88-615</p>
+      </div>
+    </div>
+    
+    <div class="w3-container" id="info">
+      <div class="w3-content" style="max-width:700px">
+     
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PRZYCZYNY I SKUTKI</span></h5>
+        <p>Konsekwencje globalnego ocieplenia i zmian klimatycznych mogą być katastrofalne. Zobacz też jakię są ich przyczyny.</p>
+      
+        <div class="w3-row w3-center w3-card w3-padding">
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Text1');" id="myLink">
+            <div class="w3-col s6 tablink">PRZYCZYNY</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Text2');">
+            <div class="w3-col s6 tablink">SKUTKI</div>
+          </a>
+        </div>
+    
+        <div id="Text1" class="w3-container menu w3-padding-48 w3-card">
+          <h5>Ulatnianie szkodliwych związków chemicznych</h5>
+          <p class="w3-text-grey">W wyniku spalania węgla, ropy i gazu powstają dwutlenek węgla i podtlenek azotu.</p><br>
+        
+          <h5>Wylesianie</h5>
+          <p class="w3-text-grey">Drzewa pomagają regulować klimat poprzez pochłanianie CO2 z atmosfery. Kiedy są one wycinane, zmagazynowany w nich węgiel znów trafia do atmosfery, a to przyczynia się do efektu cieplarnianego.</p><br>
+        
+          <h5>Intensywna hodowla zwierząt gospodarskich</h5>
+          <p class="w3-text-grey">Krowy i owce produkują duże ilości metanu podczas trawienia.</p><br>
+        
+          <h5>Nawozy azotowe</h5>
+          <p class="w3-text-grey">Nawozy azotowe powodują emisje tlenków azotu.</p><br>
+        
+          <h5>Gazy cieplarniane</h5>
+          <p class="w3-text-grey">Fluorowane gazy cieplarniane są emitowane z urządzeń i produktów, które wykorzystują te gazy. Mają one bardzo wysoką wydajność cieplną, aż do 23 tys. razy wyższą niż CO2.</p>
+        </div>
+    
+        <div id="Text2" class="w3-container menu w3-padding-48 w3-card">
+          <h5>Lodowce</h5>
+          <p class="w3-text-grey">Topnienie naturalnych lądolodów i lodowców.</p><br>
+        
+          <h5>Poziom wody</h5>
+          <p class="w3-text-grey">Wzrost poziomu wód w morzach i ocenach.</p><br>
+        
+          <h5>Klęski żywiołowe</h5>
+          <p class="w3-text-grey">Większa częstotliwość i natężenie występowania ekstremalnych zjawisk pogodowych (np. długotrwałych upałów, gwałtownych opadów i burz, silnych huraganów).</p><br>
+        
+          <h5>Obieg wody</h5>
+          <p class="w3-text-grey">Zaburzenia obiegu wody w przyrodzie (susze i powodzie, w tym powodzie błyskawiczne).</p><br>
+        
+          <h5>Rozwój roślin</h5>
+          <p class="w3-text-grey">Wydłużenie okresu wegetacyjnego flory, stepowienie obszarów porośniętych dotychczas regularną roślinnością oraz wzrost częstotliwości i zasięgu pożarów lasów.</p>
+
+          <h5>Wzrost ilości szkodliwych gatunków</h5>
+          <p class="w3-text-grey">Zmiany zasięgu występowania gatunków flory i fauny, w tym szkodników i wektorów chorób zakaźnych.</p>
+
+        </div>  
+        <img src="../static/img/causes-of-global-warming-1579628524578.webp" style="width:100%;max-width:1000px;margin-top:32px;">
+      </div>
+    </div>
+    
+    <div class="w3-container" id="datki" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DATKI</span></h5>
+        <img src="../static/img/output-onlinepngtools.png" class="w3-image" style="width:100%">
+        <p>Chcesz nas wesprzeć? Wyślij dowolny datek tutaj.</p>
+        <form action="{{ url_for('submit_form') }}" method="post">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Imię i Nazwisko" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Wysokość datku" required name="Amount"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Numer karty kredytowej" required name="Number"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Data ważności" required name="Expiry"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Kod CVV/CVC" required name="Code"></p>
+          <p><button class="w3-button w3-black" type="submit">WYŚLIJ</button></p>
+        </form>
+      </div>
+    </div>
+    
+    </div>
+    
+    <footer class="w3-center grey w3-padding-48 w3-large">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+    
+    <script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(menuName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+    </script>    
+    <script src="main.py"></script>
+  </body>
+</html>
